@@ -14,6 +14,7 @@ public class BaseClass {
 		System.out.println("This is my git task");
 	
 		BaseClass b = new BaseClass();
+		b.stringReverseByShayina();
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter any String for reversal: ");
 		String inputString = input.nextLine();
@@ -31,6 +32,20 @@ public class BaseClass {
 	}
 		return outputString;
 	}
+
+public void stringReverseByShayina(){
+	Scanner scanner=new Scanner(System.in);
+	System.out.println("Enter the string to be reversed:");
+	String string=scanner.nextLine();
+	String reverse="";
+	for(int i=string.length()-1;i>=0;i--)
+	{
+	reverse=reverse+string.charAt(i);
+	}
+System.out.println("Your reversed string is:"+reverse);	
+	
+}
+
 	
 	public static void stringrev_kumar() 
 	{
@@ -43,7 +58,6 @@ public class BaseClass {
 		
 		
 	}
-
 
 	
 	}
