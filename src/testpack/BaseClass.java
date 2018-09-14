@@ -6,6 +6,7 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("this is my base class");
 		System.out.println("added some code");
+<<<<<<< HEAD
 		System.out.println("merge");
 		
 		stringrev_kumar();
@@ -21,5 +22,9 @@ public class BaseClass {
 		
 		
 	}
+=======
+		System.out.println("This is my git task");
+	} 
+>>>>>>> b3def5410c72738a66e8227071e35034e9fcce75
 
 }
