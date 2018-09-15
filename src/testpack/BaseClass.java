@@ -19,7 +19,11 @@ public class BaseClass {
 		System.out.println("String after reverse: "+reverse);
 
 		BaseClass b = new BaseClass();
+
+		b.balaStrRev();
+
 		b.stringReverseByShayina();
+
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter any String for reversal: ");
 		String inputString = input.nextLine();
@@ -61,9 +65,27 @@ public class BaseClass {
 			System.out.print(str.charAt(i));
 		}
 
+				
+	}
+
+	public static  void balaStrRev()
+	{
+			
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string");
+		String nm=sc.nextLine();
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append(nm);
+		sb=sb.reverse();
+		System.out.println(sb);
+		
+	}
+
+	
 
 	}
 
 
-}
+
 

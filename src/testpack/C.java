@@ -2,8 +2,9 @@ package testpack;
 
 import java.util.Scanner;
 
-public class SampleTest {
+public class C {
 
+	
 	public static  void balaStrRev()
 	{
 		
@@ -18,5 +19,5 @@ public class SampleTest {
 		sb=sb.reverse();
 		System.out.println(sb);
 		
-	}
+}
 }
