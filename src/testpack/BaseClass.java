@@ -72,7 +72,7 @@ public class BaseClass {
 	{
 			
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the string");
+		System.out.println("Enter string");
 		String nm=sc.nextLine();
 		
 		StringBuilder sb=new StringBuilder();
