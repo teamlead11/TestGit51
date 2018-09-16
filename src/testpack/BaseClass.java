@@ -19,8 +19,10 @@ public class BaseClass {
 		System.out.println("String after reverse: "+reverse);
 
 		BaseClass b = new BaseClass();
+		b.revStringJoy();
 		b.joyRevString();
 		b.balaStrRev();
+		
 
 		b.stringReverseByShayina();
 
@@ -99,7 +101,21 @@ public class BaseClass {
 	
 }
 
+	public static void revStringJoy(){
+		String em1,rev="";
+		System.out.println("Enter String");
+		Scanner em=new Scanner(System.in);
+		em1=em.nextLine();
+		int l=em1.length();
+		
+		for(int i=l-1;i>=0;i--)
+		{
+			rev=rev + em1.charAt(i);
+		}
+		System.out.println(rev);
+
 	
+}
 
 	}
 
