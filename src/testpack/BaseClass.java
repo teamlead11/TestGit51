@@ -11,6 +11,7 @@ public class BaseClass {
 		System.out.println("merge");
 
 
+		System.out.println("this is mani code");
 		System.out.println("This is my git task");
 		
 		String string = "Java";
